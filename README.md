@@ -1,7 +1,18 @@
 # Getting Started with React Starter Kit
 
 - React Starter Kit was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). 
-- This kit is having additional features of tailwind-css support, navigation support from React Router v6, web3js/ethersjs error fix for webpack 5.
+- This kit is having additional features of built-in tailwind-css support, navigation support from React Router v6.
+- [Web3](https://github.com/ChainSafe/web3.js)/[Ethers](https://github.com/ethers-io/ethers.js) error fixed for webpack 5.
+- Fast creation of React App (usually within a minute).
+
+# Creating an React App
+
+```
+git clone https://github.com/kaamil-ahamadh/react-starter-kit my-app
+cd my-app
+npm install
+```
+(You’ll need to have Git, Node 14.0.0 or later version, npm 5.2+ and higher)
 
 ## Available Scripts
 
