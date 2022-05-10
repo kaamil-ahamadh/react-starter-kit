@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  @apply flex flex-col justify-between bg-[#090F19] w-screen min-h-screen p-4 text-[#C6D3E7];
+}
+
+.navbar {
+  @apply mt-3 mb-5 flex justify-center text-2xl font-bold;
+}
+
+.footer {
+  @apply flex justify-center font-bold text-lg mt-5 mb-3;
+}
+
+.search-box {
+  @apply bg-[#090F19] text-[#C6D3E7] border-2 border-cyan-600
+        focus:border-[3px] focus:border-cyan-400 outline-none p-3 rounded-xl;
+}
+
+.card-container {
+  @apply grid gap-y-3 justify-items-center grid-cols-1 md:grid-cols-2 
+        lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5;
+}
+.card {
+  @apply flex flex-col items-center p-5 w-[280px] rounded-xl 
+        shadow-md cursor-pointer select-none bg-[#0F1724] hover:bg-gray-800 
+        hover:ring-2 hover:ring-cyan-700;
+}
