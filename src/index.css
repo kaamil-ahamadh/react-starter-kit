@@ -2,4 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* App */
 
+.app-wrapper {
+  @apply bg-[#090F19] text-white h-screen w-screen p-4 select-none flex justify-center;
+}
+
+.content {
+  @apply flex justify-between w-[100%];
+}
