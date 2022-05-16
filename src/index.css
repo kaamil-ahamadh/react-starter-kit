@@ -5,7 +5,7 @@
 /* App */
 
 .app-wrapper {
-  @apply bg-[#090F19] text-white h-screen w-screen p-4 select-none flex justify-center;
+  @apply bg-[#090F19] text-white min-h-screen w-screen p-4 select-none flex justify-center;
 }
 
 .content {
